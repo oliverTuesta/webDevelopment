@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Formularios</title>
+  </head>
+  <body>
+    <form action="">
+      <label for="nombre">
+        <span>Cual es tu nombre?</span>
+        <input type="text" id="nombre" name="nombre" placeholder="Tu nombre" />
+      </label>
+      <label for="edad">
+        <span>a que hora despietas?</span>
+        <input type="time" id="edad" name="edad" />
+      </label>
+      <label for="mes-nacimiento">
+        <span>En que mes naciste?</span>
+        <input type="date" id="mes-nacimiento" nombre="mes-nacimiento" />
+      </label>
+
+      <select name="mascotas" id="mascotas">
+        <option value="gatos">gatos</option>
+        <option value="perros">perros</option>
+        <option value="conejos">conejos</option>
+        <option value="cuyes">cuyes</option>
+      </select>
+
+      <input list="pais" />
+      <datalist id="pais">
+        <option value="peru"></option>
+        <option value="brazil"></option>
+        <option value="argentina"></option>
+        <option value="uruguay"></option>
+      </datalist>
+
+      <input type="submit" />
+    </form>
+    <a href="/index.html">volver al inicio</a>
+  </body>
+</html>
