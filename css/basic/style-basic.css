@@ -1,0 +1,16 @@
+h1 {
+  color: cornflowerblue;
+  font-size: 50px;
+}
+
+/* class */
+.parrafo {
+  color: darkorange;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+}
+
+/* id */
+#texto {
+  color: darkred;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
