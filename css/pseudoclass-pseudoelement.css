@@ -1,0 +1,31 @@
+.main-nav {
+  margin-top: 10px;
+  list-style: none;
+  padding-left: 0px;
+  background-color: tomato;
+}
+
+.main-nav__item {
+  display: inline-block;
+}
+
+.main-nav__item a {
+  color: white;
+  padding: 5px;
+  text-decoration: none;
+}
+
+/* pseudo class */
+
+.main-nav__item a:hover {
+  color: blue;
+}
+
+.main-nav__item a:active {
+  color: chocolate;
+}
+
+/* pseudo element */
+.main-nav__item a::after {
+  content: " | ";
+}
