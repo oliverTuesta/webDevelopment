@@ -1,61 +1,68 @@
-body {
-  font-size: larger;
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
   font-family: Helvetica, Tahoma, "Trebuchet MS", "Times New Roman", Georgia;
-  color: #0081a7;
-  margin-left: 30px;
 }
 
-header {
-  margin-top: 30px;
-  margin-bottom: 60px;
+.header {
+  margin-bottom: 10px;
   background-color: #ee9b00;
   padding: 5px;
-  display: flex;
-}
-
-body {
-  margin-left: 50px;
-  margin-right: 50px;
+  width: 100%;
 }
 
 .header__title {
   color: white;
   font-size: 1.4em;
+  text-decoration: none;
+  margin: auto 5px;
+  display: inline-block;
+}
+.header .logo {
+  margin: auto 10px;
+  width: 30px;
+  height: 30px;
+  object-fit: cover;
+  display: inline-block;
+}
+.main-section {
+  background-color: #005f73;
+  height: 100%;
+  padding: 20px;
+  font-size: 1.7em;
+  color: #f8edeb;
+  border-radius: 5px;
+  margin-top: 0px;
+}
+.main-section .paragraph {
+  margin: 0px;
+  padding: 0px;
+  height: 00px;
+  width: calc(100% - 220px);
+  display: inline-block;
+}
+
+.main-section .paragraph p {
+  margin-left: 0px;
+  padding: 0px;
+}
+
+.images {
+  margin: 0px;
+  object-fit: cover;
+  width: 200px;
+  height: 200px;
+  border-radius: 50%;
   margin-top: auto;
   margin-bottom: auto;
 }
 
-h1 {
-  color: tomato;
-  text-decoration: underline;
-  text-decoration-line: underline;
-  text-decoration-color: #005f73;
-  text-decoration-style: wavy;
+main {
+  padding: 20px;
 }
 
-.paragraph {
-  background-color: #f8edeb;
-  padding: 10px;
-  font-size: 17pt;
-  color: #005f73;
-  border-radius: 10px;
-}
-
-img {
-  object-fit: fill;
-  width: 700px;
-  height: 300px;
-  margin-left: auto;
-  margin-right: auto;
-}
-
-.about {
-  display: flex;
-}
-
-.header__logo {
-  margin-top: auto;
-  margin-bottom: auto;
-  width: 50px;
-  height: 50px;
+.main-title {
+  font-size: 2em;
+  color: #ee9b00;
 }
