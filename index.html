@@ -15,16 +15,26 @@
   <body>
     <header class="header">
       <img
-        class="logo"
+        class="miniLogo"
         src="https://image.flaticon.com/icons/png/512/1688/1688451.png"
         alt="html logo"
       />
       <h1 class="header__title">Oliver Tuesta</h1>
+
+      <div class="css-logo">
+        <img
+          src="https://cdn.pixabay.com/photo/2017/08/05/11/16/logo-2582747_1280.png"
+          alt="minimalist css logo"
+        />
+      </div>
     </header>
     <main>
-      <h1 class="main-title">Desarrollo Web</h1>
+      <div class="main-title">
+        <h1>Desarrollo Web</h1>
+        <hr />
+      </div>
 
-      <section class="main-section">
+      <section class="main-section card">
         <div class="paragraph">
           <p>
             Esta web es para ver lo que estoy aprendiendo en cuanto a HTML & CSS
@@ -46,23 +56,122 @@
         />
       </section>
 
-      <h2>Aprendizajes:</h2>
-      <a href="./html/compras.html">Lista de compras</a>
-      <h3>HTML</h3>
+      <h2 class="subTitle">Aprendizajes:</h2>
       <nav>
-        <a href="./html/forms.html">formularios</a>
-        <a href="./html/calendar.html">calendarios</a>
-        <a href="./html/images.html">imagenes</a>
-        <a href="./html/video.html">video</a>
-        <a href="./html/autocomplete-require.html">autocompletado&requeridos</a>
-        <a href="./html/buttons.html">botones</a>
+        <a href="./html/compras.html">Lista de compras</a>
+        <h3>HTML</h3>
+        <nav>
+          <a href="./html/forms.html">formularios</a>
+          <a href="./html/calendar.html">calendarios</a>
+          <a href="./html/images.html">imagenes</a>
+          <a href="./html/video.html">video</a>
+          <a href="./html/autocomplete-require.html"
+            >autocompletado&requeridos</a
+          >
+          <a href="./html/buttons.html">botones</a>
+        </nav>
+        <h3>CSS</h3>
+        <a href="./css/basic/basic.html">basico</a>
+        <a href="./html/pseudoclass-pseudoelement.html">pseudo clases</a>
+        <a href="./html/herencia.html">herencia</a>
+        <a href="./html/especifidad.html">especifidad&orden-selectores</a>
+        <a href="./html/medidas.html">medidas</a>
+        <a href="./penguin/penguin.html">penguin</a>
+        <a href="./penguin/penguin2.html">penguin2</a>
       </nav>
-      <h3>CSS</h3>
-      <a href="./css/basic/basic.html">basico</a>
-      <a href="./html/pseudoclass-pseudoelement.html">pseudo clases</a>
-      <a href="./html/herencia.html">herencia</a>
-      <a href="./html/especifidad.html">especifidad&orden-selectores</a>
-      <a href="./html/medidas.html">medidas</a>
     </main>
+    <div class="information">
+      <div class="information__1 card">
+        <p>
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Asperiores
+          iure iste necessitatibus tenetur voluptatibus, aspernatur, labore
+          provident quod eum corrupti beatae accusamus, corporis ducimus quam
+          aliquam. Nobis doloremque atque delectus enim corrupti. Ut autem
+          fugiat, deserunt facere quasi ipsum dolores nam iusto et placeat
+          cumque animi beatae reiciendis modi illo distinctio! Molestias
+          perferendis excepturi beatae illo inventore, sunt accusamus sequi
+          tempora cupiditate temporibus minus harum? Eum ea cum asperiores qui
+          sit nemo magnam in a? Est veritatis perferendis illo eos. Perferendis
+          quisquam similique possimus, ut, cumque unde aliquid sequi at esse
+          beatae mollitia dolorem officiis. Consequuntur tempora in quaerat ab.
+        </p>
+      </div>
+      <div class="information__2 card"></div>
+    </div>
+
+    <section class="section-colors"> 
+      <h2 class="subTitle">CSS visual desing</h2>
+      <div class="section-colors__boxes">
+        <div>
+          <p>linear-gradient</p>
+          <div class="box1 card"></div>
+        </div>
+        <div>
+          <p>repeating-linear-gradient</p>
+          <div class="box2 card"></div>
+        </div>
+        <div>
+          <p>url("link");</p>
+          <div class="box3 card"></div>
+        </div>
+        <div>
+          <p>transform: scale(0.5)</p>
+          <div class="box4 card"></div>
+        </div>
+        <div>
+          <p>pseudo-class :hover</p>
+          <p>transform: scale(0.8);</p>
+          <div class="box5 card"></div>
+        </div>
+        <div>
+          <p>transform skewX(10deg);</p>
+          <div class="box6 card"></div>
+        </div>
+        <div>
+          <p>transform skewY(-10deg);</p>
+          <div class="box7 card"></div>
+        </div>
+        <div>
+          <p>moon shape</p>
+          <div class="moon card"></div>
+        </div>
+        <div>
+          <p>heart shape</p>
+          <div class="heart card"></div>
+        </div>
+      </div>
+    </div>
+    </section>
+   <section class="animations">
+    <h2>Animations & @keyframes</h2>
+    <div>
+      <div class="boxes">
+        <p>first animation</p>
+        <div class="rainbow-animation"></div>
+      </div>
+      <div class="boxes">
+        <p>button hover animation-fill</p>
+
+        <div class="button-hover"></div>
+      </div>
+      <div class="boxes">
+        <p>movement</p>
+        <div class="movement"></div>
+      </div>
+      <div class="boxes">
+        <p>movement & fades</p>
+        <div class="movement-fades"></div>
+      </div>
+      <div class="boxes">
+        <p>animation-iteraion-count</p>
+        <div class="iterations"></div>
+      </div>
+      <div class="boxes">
+        <p>heart beat</p>
+        <div class="beat"></div>
+      </div>
+    </div>
+   </section>
+    <footer>© 2021 Oliver Tuesta</footer>
   </body>
 </html>
